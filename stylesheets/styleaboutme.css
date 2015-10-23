@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+.left h1 {
+	line-height: 1;
+	color: white;
+	text-shadow: 5px 5px 1px grey;
+	font-size: 90px;
+	font-family: 'Archivo Narrow', sans-serif;
+	margin-top: 0px;
+}
+
+p {
+	color: black;
+	font-size: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+.left {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	background-image: url(../images/lbj.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 400px;
+	padding: 10px 30px 30px 30px;
+	background-position: center center;
+}
+
+.right {
+	margin-left: 450px;
+}
+
+.right h3 {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 25px;
+}
+
+img {
+	width: 49%;
+}
+.right {
+		width: 800px;
+}
